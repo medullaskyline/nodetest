@@ -1,0 +1,21 @@
+{
+  "name": "nodetest",
+  "version": "0.0.0",
+  "homepage": "https://github.com/medullaskyline/nodetest",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "fontawesome": "~4.3.0",
+    "jquery": "~2.1.4"
+  }
+}
