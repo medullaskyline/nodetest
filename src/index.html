@@ -15,8 +15,17 @@
   <!-- BUT starting a node shell and running 
   $ require('wiredep')({src: 'src/index.html'}); 
   from the project root DOES fill in fontawesome.css, jquery.js and bootstrap.js-->
+
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- inject:js -->
+  <!-- endinject -->
+
+  <!-- todo: running gulp wiredep then gulp inject didn't add the styles.css or main.js to this file -->
+  <!-- BUT it did add them to the build/index.html file -->
 </head>
 <body>
   <h1>Hello World</h1>
+  <img src="images/adaTheFirst.jpg" alt="Ada Lovelace, The first Programmer">
 </body>
 </html>
